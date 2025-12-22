@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 * {
     margin: 0;
     padding: 0;
@@ -230,55 +229,11 @@ ul {
 }
 
 .hero_section p {
-=======
-*{ 
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    text-decoration: none;
-    border: none;
-    outline: none;
-    font-family: "Sofia", sans-serif;
-}
-.MainHeader {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin-top: 20px;
-    margin-right: 320px;
-}
-.MainHeader img {
-    height: 30px;
-    width: 15%;
-    margin-left: 50px;
-}
-.MainHeader a {
-    color: rgb(36, 36, 36);
-    margin-left: 30px;
-}
-.MainHeader span {
-    margin-left: 25px;
-    color: #6851ff;
-}
-.MainSection {
-   margin-top: 70px;
-}
-.MainSection h1 {
-    text-align: center;
-    background: -webkit-linear-gradient(60deg,#6851ff, #31beff);
-   -webkit-background-clip: text;
-   -webkit-text-fill-color: transparent;
-    font-size: 80px;
-    margin: 10px auto;
-}
-.MainSection p {
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
     font-size: 19px;
     text-align: center;
     margin: 20px auto;
     width: 60%;
 }
-<<<<<<< HEAD
 
 .hero_section input {
     height: 40px;
@@ -286,50 +241,28 @@ ul {
     margin: 0px 0px 0px 374px;
     border: 0.5px solid black;
     padding-left: 14px;
-=======
-.MainSection input {
-    height: 40px;
-    width: 40%;
-    margin: 0px 0px 0px 374px;
-    border: 0.5px solid black; 
-    padding-left: 14px;  
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
     font-size: 14px;
     border-right: none;
     border-top-left-radius: 7px;
     border-bottom-left-radius: 7px;
 }
-<<<<<<< HEAD
 
 .input {
     display: flex;
 }
 
-=======
-.input {
-    display: flex;
-}
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
 .input img {
     border: 1px solid black;
     border-left: none;
     border-top-right-radius: 7px;
     border-bottom-right-radius: 7px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
 .MainSec1 {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
 .FindJobs {
     font-weight: bold;
     font-size: 16px;
@@ -340,35 +273,23 @@ ul {
     padding: 15px 32px 14px 32px;
     margin-top: 34px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
 .MainSec1 p {
     color: #6851ff;
     font-weight: bolder;
     font-size: 30px;
     margin-top: 25px;
 }
-<<<<<<< HEAD
 
 .hero,
 .hero2 {
-=======
-.hero , .hero2{
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
     display: flex;
     flex-direction: row;
     gap: 10px;
     margin-top: -25px;
 }
-<<<<<<< HEAD
 
 .hero1,
 .heroin {
-=======
-.hero1 , .heroin{
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
     font-weight: bold;
     font-size: 16px;
     background-color: #ffffff;
@@ -377,22 +298,16 @@ ul {
     border-radius: 7px;
     padding: 8px 15px 8px 15px;
     margin-top: 34px;
-<<<<<<< HEAD
 }
 
 
 .cartoonshad {
-=======
-} 
-.MainSection2 ,.MainSection6 ,.cartoonshad {
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
     display: flex;
     justify-content: center;
     flex-direction: row;
     gap: 10px;
     margin-top: 50px;
 }
-<<<<<<< HEAD
 
 .get_hired {
     margin-top: 150px;
@@ -433,32 +348,14 @@ ul {
     color: #3f3f3f;
 }
 
-=======
-.MainSection6 {
-    margin-top: 150px;
-}
-.had1 {
-    color: #6851ff;
-    font-size: 45px;
-}
-.had2 {
-    color: #3f3f3f;
-    font-size: 45px;
-}
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
 .paper {
     display: flex;
     gap: 150px;
 }
-<<<<<<< HEAD
-
-=======
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
 .card1 {
     border: 1px solid black;
     box-shadow: #3f3f3f;
 }
-<<<<<<< HEAD
 
 .card1 h6 {
     font-weight: bold;
@@ -528,45 +425,10 @@ ul {
 .card2 img,
 .card4 img,
 .card6 img {
-=======
-.card1 h6 {
-    font-weight: bold;
-}
-.MainSection3 , .MainSection4 , .MainSection5{
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    border: 1px solid rgb(197, 197, 197);
-    width: 27%;
-    border-radius: 7px;
-    padding: 12px;
-}
-.card1 , .card3 , .card5{
-    height: 170px;
-    border: none;
-}
-.card1 p , .card3 p , .card5 p{
-    color: rgb(99, 99, 99);
-    margin: 3px 0px 0px 5px;
-}
-.card1 h4 , .card3 h4 ,.card5 h4{
-    margin: 3px 0px 0px 3px;
-}
-.card1 h5 , .card3 h5 ,.card5 h5{
-    color: #6851ff;
-    margin: 7px 0px 136px 5px;
-}
-.card1 span , .card3 span ,.card5 span{
-    margin-left: 3px;
-    color: rgb(99, 99, 99);
-}
-.card2 img , .card4 img ,.card6 img{
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
     height: 30px;
     width: 40px;
     margin: 0px 0px 155px 26px;
 }
-<<<<<<< HEAD
 
 .card2 p,
 .card4 p,
@@ -577,17 +439,10 @@ ul {
 .card2 h6,
 .card4 h6,
 .card6 h6 {
-=======
-.card2 p , .card4 p ,.card6 p{
-    margin-bottom: 10px;
-}
-.card2 h6 , .card4 h6 ,.card6 h6{
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
     color: rgb(99, 99, 99);
     font-size: 15px;
     margin-left: -65px;
 }
-<<<<<<< HEAD
 
 .card2 span,
 .card4 span,
@@ -742,39 +597,12 @@ ul {
 .career_card {
     flex: 1 1 200px;
     background: linear-gradient(#afa2ff77, #fafafa);
-=======
-.card2 span , .card4 span ,.card6 span{
-    color: #6851ff;
-}
-.FatherSection {
-    margin-top: 75px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 20px;
-}
-.line {
-    text-align: center;
-    font-size: 20px;
-    margin: 17px 0px 51px 305px;
-    width: 50%;
-}
-.container {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-}
-.card {
-    background: linear-gradient(#afa2ff77, #fafafa);
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
     width: 250px;
     height: 200px;
     margin: 10px;
     border-radius: 24px;
     border: 1px solid #d9d2ffc5;
     padding: 20px;
-<<<<<<< HEAD
     transition: all 0.2s ease-in;
     box-shadow: rgba(189, 178, 255, 0.24) 0px 4px 40px 0px;
     text-align: center;
@@ -796,68 +624,10 @@ ul {
 }
 
 .career_card p {
-=======
-    box-shadow: rgba(189, 178, 255, 0.24) 0px 4px 40px 0px;
-    text-align: center;
-}
-.card h3 {
-    color: #6851ff;
-    margin-bottom: 10px;
-}
-.card p {
-    color: #666;
-    font-size: 14px;
-    line-height: 1.5;
-}
-.cartoonshad {
-    margin-top: 150px;
-}
-.webp {
-    margin: 0px 0px 0px 34px;
-}
-.Boxes8  {
-    display: flex;
-    justify-content: center;
-    flex-direction: row;
-    gap: 10px;
-    margin-top: 130px;
-}
-.had3 {
-    text-align: center;
-    color: #3f3f3f;;
-    font-size: 45px;
-}
-.container1 {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin: 0 auto;
-}
-.card11 {
-    background: linear-gradient(#afa2ff77, #fafafa);
-    width: 250px;
-    height: 200px;
-    margin: 10px;
-    border-radius: 24px;
-    border: 1px solid #d9d2ffc5;
-    padding: 20px;
-    box-shadow: rgba(189, 178, 255, 0.24) 0px 4px 40px 0px;
-    text-align: center;
-}
-.card11 img {
-    margin-top: 35px;
-}
-.card11 h3 {
-    color: #6851ff;
-    margin-bottom: 10px;
-}
-.card11 p {
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
     color: #666;
     font-size: 17px;
     line-height: 1.5;
 }
-<<<<<<< HEAD
 
 .arrow {
     display: flex;
@@ -866,25 +636,14 @@ ul {
 }
 
 .job_people_imgs {
-=======
-.arrow {
-    margin-left: 1085px;
-}
-.MainSection7 {
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
     display: flex;
     justify-content: space-around;
     align-items: center;
     gap: 25px;
-<<<<<<< HEAD
     margin: 80px;
     text-align: center;
 }
 
-=======
-    margin-top: 150px;
-}
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
 .line1 {
     rotate: 90deg;
     width: 150px;
@@ -894,7 +653,6 @@ ul {
     border-radius: 5px;
 }
 
-<<<<<<< HEAD
 .footer {
     display: flex;
     justify-content: space-around;
@@ -969,62 +727,11 @@ ul {
     gap: 10px;
 }   
 
-=======
-.MainSection7div1 {
-    margin: 0px 0px 0px 84px;
-}
-.MainSection7div2 {
-    margin: 0px 77px 0px 0px;
-}
-.footer {
-    background: linear-gradient(#3b1dff, #9b20ff);
-    height: 400px;
-    color: white;
-    display: flex;
-}
-.footer1 img{
-    margin: 90px 0px 12px 56px;
-}
-.footer1 p {
-    width: 30%;
-    margin: 6px 0px 11px 50px;
-    line-height: 24px;
-}
-.footer1 h3 {
-    margin: 56px 0px 0px 47px;
-    font-size: 22px;
-}
-.icons {
-    display: flex;
-    flex-direction: row;
-    gap: 50px;
-    margin: 13px 0px 0px 43px;
-    font-size: 33px;
-}
-.Contact h4 {
-    margin: 137px 0px 0px 0px;
-}
-.email i {
-    margin: 2px 6px 0px 0px;
-}
-.email {
-    display: flex;
-    margin: 5px 32px 0px 0px;
-}
-.line2 {
-    width: 150px;
-    height: 4px;
-    background-color: #6851ff;
-    margin: 10px auto;
-    border-radius: 5px;
-}
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
 .Privacy {
     background: #9b20ff;
     text-align: center;
     color: white;
 }
-<<<<<<< HEAD
 
 .Privacy p {
     margin-top: 10px;
@@ -1092,11 +799,4 @@ ul {
 }
 .dark-mode p {
     color: #d0d0d0;
-=======
-.Privacy p {
-    margin-top: 10px;
-}
-hr {
-    margin: 1px 0px 9px;
->>>>>>> 7a9b885c831a07e91666c2ddaa33ede68fb19a4d
 }
