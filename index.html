@@ -21,7 +21,8 @@
 <body>
     <header class="nav_section">
         <img src="./assets/logo.png" alt="logo">
-        <nav>
+        <nav id="mobile-nav" class="nav_items">
+        <a href="#" class="hamburger"><img src="./assets/logo.png" alt="logo"></a>
             <a href="#">About Us</a>
             <a href="#">People</a>
             <a href="#">Resume Checker</a>
@@ -31,13 +32,20 @@
             <a href="#">Join Now</a>
             <span>Employee / Post Job</span>
         </nav>
-        <div class="dark_mode">
-            <label class="ui-switch">
-                <input type="checkbox" id="checkbox">
-                <div class="slider">
-                    <div class="circle"></div>
-                </div>
-            </label>
+        <div class="nav_right">
+            <div class="hamburger" id="hamburger-icon">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="dark_mode">
+                <label class="ui-switch">
+                    <input type="checkbox" id="checkbox">
+                    <div class="slider">
+                        <div class="circle"></div>
+                    </div>
+                </label>
+            </div>
         </div>
     </header>
 
@@ -86,46 +94,61 @@
     <section class="carousel_card_section">
         <div class="carousel_1">
             <div class="card1">
-                <p>Anonymous</p>
-                <h4>Customer Service Representative</h4>
+                <p>Faisal</p>
+                <h4>Frontend Developer</h4>
                 <h5>Rs 35000</h5>
                 <span>11 days ago</span>
             </div>
 
             <div class="card2">
-                <img src="./assets/asset 3.png" alt="">
-                <p>52 views</p>
-                <h6>Posted by <span>Hassan</span></h6>
+                <div class="card2_div1">
+                    <img src="./assets/asset 3.png" alt="">
+                </div>
+
+                <div class="card2_div2">
+                    <p>52 views</p>
+                    <h6>Posted by <span>Hassan</span></h6>
+                </div>
             </div>
         </div>
 
         <div class="carousel_1">
             <div class="card1">
-                <p>Anonymous</p>
-                <h4>Customer Service Representative</h4>
-                <h5>Rs 35000</h5>
+                <p>Ahmed Raza</p>
+                <h4>MERN Developer</h4>
+                <h5>Rs 100000</h5>
                 <span>11 days ago</span>
             </div>
 
             <div class="card2">
-                <img src="./assets/asset 3.png" alt="">
-                <p>52 views</p>
-                <h6>Posted by <span>Hassan</span></h6>
+                <div class="card2_div1">
+                    <img src="./assets/asset 3.png" alt="">
+                </div>
+
+                <div class="card2_div2">
+                    <p>52 views</p>
+                    <h6>Posted by <span>Hassan</span></h6>
+                </div>
             </div>
         </div>
 
         <div class="carousel_1">
             <div class="card1">
-                <p>Anonymous</p>
-                <h4>Customer Service Representative</h4>
+                <p>Ali Abdal</p>
+                <h4>Reciptionist</h4>
                 <h5>Rs 35000</h5>
                 <span>11 days ago</span>
             </div>
 
             <div class="card2">
-                <img src="./assets/asset 3.png" alt="">
-                <p>52 views</p>
-                <h6>Posted by <span>Hassan</span></h6>
+                <div class="card2_div1">
+                    <img src="./assets/asset 3.png" alt="">
+                </div>
+
+                <div class="card2_div2">
+                    <p>52 views</p>
+                    <h6>Posted by <span>Hassan</span></h6>
+                </div>
             </div>
         </div>
     </section>
@@ -226,31 +249,31 @@
     </section>
 
     <footer class="footer">
-            <div class="footer1">
-                <img src="./assets/asset 8.png" alt="">
-                <p>Built with ❤️ in Pakistan for the World.</p>
-                <p>HiringMine bridges top talent and visionary companies through a smart, streamlined platform.
-                    Empowering candidates to shine, and employers to hire better — faster. Your next opportunity,
-                    powered by technology and trust.
-                </p>
-                <h3>Follow Us</h3>
-                <div class="icons">
-                    <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
-                    <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
-                    <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
-                    <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
-                </div>
+        <div class="footer1">
+            <img src="./assets/asset 8.png" alt="">
+            <p>Built with ❤️ in Pakistan for the World.</p>
+            <p>HiringMine bridges top talent and visionary companies through a smart, streamlined platform.
+                Empowering candidates to shine, and employers to hire better — faster. Your next opportunity,
+                powered by technology and trust.
+            </p>
+            <h3>Follow Us</h3>
+            <div class="icons">
+                <i class="fa-brands fa-facebook" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-whatsapp" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-instagram" style="color: #ffffff;"></i>
+                <i class="fa-brands fa-linkedin-in" style="color: #ffffff;"></i>
             </div>
+        </div>
 
-            <div class="Contact">
-                <h4>Contact Us</h4>
-                <div class="email">
-                    <i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
-                    <p>portal.hiringmine@gmail.com</p>
-                </div>
-                <p>Life at HiringMine</p>
-                <p>About HiringMine</p>
+        <div class="Contact">
+            <h4>Contact Us</h4>
+            <div class="email">
+                <i class="fa-regular fa-envelope" style="color: #ffffff;"></i>
+                <p>portal.hiringmine@gmail.com</p>
             </div>
+            <p>Life at HiringMine</p>
+            <p>About HiringMine</p>
+        </div>
 
     </footer>
     <div class="Privacy">
