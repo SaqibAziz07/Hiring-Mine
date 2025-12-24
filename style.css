@@ -256,7 +256,6 @@ ul {
     text-align: center;
     font-size: 20px;
     line-height: 1.7;
-    /* margin: 17px 0px 51px 305px; */
     width: 50%;
 }
 
@@ -488,7 +487,7 @@ ul {
 .career_card {
     flex: 1 1 240px;
     /* responsive width */
-    max-width: 250px;
+    max-width: 300px;
     /* limit size */
     height: 200px;
 
@@ -719,16 +718,8 @@ ul {
 }
 
 @media screen and (max-width: 900px) {
-    .nav_section nav a {
-        font-size: 12px;
-    }
-
-    .nav_section img {
-        width: 150px;
-    }
-
     .hamburger {
-        display: flex !important;
+        display: flex;
         z-index: 1001;
     }
 
@@ -741,7 +732,6 @@ ul {
         background-color: white;
         flex-direction: column;
         justify-content: center;
-        gap: 30px;
         box-shadow: -10px 0 20px rgba(0, 0, 0, 0.1);
         transition: 0.4s ease-in-out;
         z-index: 1000;
@@ -752,12 +742,12 @@ ul {
     }
 
     .nav_section nav a {
-        font-size: 18px;
+        font-size: 1.2rem;
         font-weight: 500;
     }
 
     .dark_mode {
-        margin-right: 20px;
+        margin-right: 0px;
     }
 
     .hero_section_p {
@@ -766,12 +756,12 @@ ul {
     }
 
     .jobs_skills {
-        width: 80%;
+        width: 90%;
     }
 
     .climb_man_section h1 {
         width: 90%;
-        font-size: 3rem;
+        font-size: 2.5rem;
         margin: 20px 50px 20px;
     }
 
@@ -789,9 +779,14 @@ ul {
         height: auto;
     }
 
+    .job_people_img_1 h1,
+    .job_people_img_2 h1 {
+        font-size: 2rem;
+    }
+
     .line1 {
-        width: 100px;
-        height: 4px;
+        width: 10rem;
+        height: 6px;
     }
 
     .footer1 p {
@@ -801,8 +796,23 @@ ul {
 }
 
 @media screen and (max-width: 600px) {
+    .nav_section nav a {
+        font-size: 0.9rem;
+        font-weight: 500;
+    }
+
+    .nav_items {
+        width: 200px;
+    }
+
     .hero_section h1 {
         font-size: 3rem;
+    }
+
+    .climb_man_section h1 {
+        width: 90%;
+        font-size: 2rem;
+        margin: 20px 20px 20px;
     }
 
     .toggle-label {
@@ -835,29 +845,10 @@ ul {
     }
 
     .jobs_skills p {
-        padding: 5px 10px;
-        border-radius: 10px;
+        padding: 10px 10px;
+        border-radius: 8px;
         white-space: nowrap;
-        font-size: 0.8rem;
-    }
-
-    .climb_man_section h1 {
-        font-size: 30px;
-    }
-
-    .hero_section_p {
-        width: 80%;
-        font-size: 1rem;
-    }
-
-    .jobs_skills {
-        width: 80%;
-    }
-
-    .climb_man_section h1 {
-        width: 90%;
-        font-size: 3rem;
-        margin: 20px 50px 20px;
+        font-size: 0.9rem;
     }
 
     .gradient_cards {
@@ -865,19 +856,16 @@ ul {
     }
 
     .job_people_imgs {
-        flex-direction: column;
+        display: none;
     }
 
-    .job_people_imgs {
-        flex-direction: column;
-    }
-
-    .line1 {
-        width: 100px;
-        height: 4px;
+    .arrow {
+        float: right;
+        margin: 0px 20px 0px 0px;
     }
 
     .footer {
+        margin-top: 60px;
         display: block;
     }
 
@@ -902,22 +890,15 @@ ul {
         margin-left: 30px;
     }
 
-    .climb_man_section h1 {
-        width: 100%;
-        font-size: 1.5rem;
-        margin: 20px 0px 20px;
-    }
-
     .icons {
         display: flex;
-        /* flex-direction: row; */
-        gap: 35px;
+        gap: 60px;
         margin-left: 30px;
         font-size: 1.5rem;
     }
 
     .Privacy {
-        font-size: 0.8rem;
+        font-size: 0.9rem;
     }
 }
 
@@ -930,6 +911,19 @@ ul {
 @media screen and (max-width: 380px) {
     .hero_section h1 {
         font-size: 2rem;
+    }
+
+    .climb_man_section h1 {
+        width: 90%;
+        font-size: 1.5rem;
+        margin: 20px 25px 20px;
+    }
+
+    .jobs_skills p {
+        padding: 8px 8px;
+        border-radius: 8px;
+        white-space: nowrap;
+        font-size: 1rem;
     }
 
     .toggle-label {
@@ -972,6 +966,27 @@ ul {
 
     .gradient_cards {
         grid-template-columns: repeat(1, 1fr);
+    }
+
+    .footer1 {
+        width: 80%;
+        align-items: flex-start;
+    }
+
+    .Contact {
+        display: flex;
+        gap: 15px;
+        margin-bottom: 30px;
+        margin-left: 30px;
+    }
+
+    .icons {
+        gap: 50px;
+        margin-left: 0px;
+    }
+
+    .Privacy {
+        font-size: 0.8rem;
     }
 
 }
