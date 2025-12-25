@@ -30,4 +30,3 @@ document.getElementById('checkbox').addEventListener('change', function () {
 });
 
 document.body.style.transition = 'background-color 0.3s, color 0.3s';
-

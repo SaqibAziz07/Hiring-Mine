@@ -51,8 +51,6 @@ ul {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px 20px;
-    /* margin-top: 20px;
-    margin-right: 320px; */
 }
 
 .nav_section nav {
@@ -68,11 +66,9 @@ ul {
 
 .nav_section a {
     color: rgb(36, 36, 36);
-    /* margin-left: 30px; */
 }
 
 .nav_section span {
-    /* margin-left: 25px; */
     color: #6851ff;
 }
 
@@ -161,7 +157,6 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    /* margin-top: 50px; */
 }
 
 .toggle-input {
@@ -231,7 +226,6 @@ ul {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    /* margin-top: 70px; */
 }
 
 .hero_section label {
@@ -290,6 +284,11 @@ ul {
     color: #6851FF;
 }
 
+.carousel_card_p {
+    text-align: center;
+    margin: 10px 10px;
+}
+
 .carousel_card span {
     color: #3f3f3f;
 }
@@ -342,7 +341,6 @@ ul {
 
 
 .carousel_card_section {
-    /* margin-top: 75px; */
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
     margin: 0 auto;
@@ -413,7 +411,6 @@ ul {
 .card2 h6 {
     color: rgb(99, 99, 99);
     font-size: 14px;
-    /* margin-left: -65px; */
 }
 
 .card2 span {
@@ -426,9 +423,7 @@ ul {
     gap: 20px;
     max-width: 1280px;
     margin: 0 auto;
-    /* center + no overflow */
     padding: 20px 20px;
-    /* safe spacing */
 }
 
 .card {
@@ -439,7 +434,6 @@ ul {
     box-shadow: rgba(189, 178, 255, 0.24) 0px 4px 40px;
     text-align: center;
     transition: all 0.25s ease;
-    /* 👈 correct place */
 }
 
 .card h3 {
@@ -486,19 +480,14 @@ ul {
 
 .career_card {
     flex: 1 1 240px;
-    /* responsive width */
     max-width: 300px;
-    /* limit size */
     height: 200px;
-
     background: linear-gradient(#afa2ff77, #fafafa);
     border-radius: 24px;
     border: 1px solid #d9d2ffc5;
     padding: 20px;
-
     box-shadow: rgba(189, 178, 255, 0.24) 0px 4px 40px;
     text-align: center;
-
     transition: transform 0.2s ease, box-shadow 0.2s ease;
 }
 
@@ -569,7 +558,6 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    /* align-items: center; */
     width: 50%;
     margin-bottom: 30px;
 }
@@ -577,33 +565,31 @@ ul {
 .footer1 img {
     width: 200px;
     height: auto;
-    /* margin: 90px 0px 12px 56px; */
 }
 
 .footer1 p {
     width: 50%;
-    /* margin: 6px 0px 11px 50px; */
     line-height: 1.4;
 }
 
 .footer1 h3 {
-    /* margin: 56px 0px 0px 47px; */
     font-size: 1.5rem;
 }
 
 .icons {
     display: flex;
-    /* flex-direction: row; */
     gap: 50px;
-    /* margin: 13px 0px 0px 43px; */
-    font-size: 1.5rem;
+    font-size: 2rem;
 }
 
-.icons i {
+.icons a i {
+    font-size: 1.5rem;
+}
+.icons a i {
     transition: transform 0.2s ease-in;
 }
 
-.icons i:hover {
+.icons a i:hover {
     cursor: pointer;
     transform: translateY(-4px);
 }
@@ -612,7 +598,6 @@ ul {
     display: flex;
     flex-direction: column;
     gap: 15px;
-    /* width: 200px; */
     margin-bottom: 30px;
 }
 
@@ -988,5 +973,4 @@ ul {
     .Privacy {
         font-size: 0.8rem;
     }
-
 }
